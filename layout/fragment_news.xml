@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/bkimg2"
+    tools:context="com.example.amazingami.parakram.Home">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="News Feeds"
+    android:textStyle="bold"
+    android:textAllCaps="true"
+    android:textSize="25dp"
+    android:gravity="center"
+    android:textColor="#ffffff"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="- About:"
+    android:textSize="25dp"
+    android:textColor="#ffffff"
+    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Notification"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Robotics"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="- eve1:"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1st-(),2nd-()"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Robotics"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="- eve1:"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1st-(),2nd-()"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Robotics"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="- eve1:"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1st-(),2nd-()"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+
+
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                card_view:cardBackgroundColor="#80ffffff"
+                card_view:cardElevation="4dp"
+                android:layout_marginTop="20dp"
+                card_view:cardCornerRadius="5dp"
+                android:layout_weight="1"
+                card_view:cardUseCompatPadding="true"
+                android:drawingCacheQuality="high">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                            <com.example.amazingami.parakram.ShinnyButton
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="#00000000"
+                                android:gravity="center"
+
+                                android:layout_marginTop="2dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="Redirect to Website"
+                                android:id="@+id/tvnoti"
+                                />
+
+                    </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

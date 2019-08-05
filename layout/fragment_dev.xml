@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/bkimg2"
+    tools:context="com.example.amazingami.parakram.Home">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Developed By-"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            />
+<ImageView
+    android:layout_width="200dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:layout_height="150dp"
+
+    android:background="@drawable/amarimg"
+    />
+        <com.example.amazingami.parakram.ShinnyButton
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:text="Amar Malik"
+
+    android:gravity="center"
+    android:textSize="20dp"
+    android:textColor="#ffffff"
+    />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="IT 3rd year,IET Lucknow"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="8052425430"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:id="@+id/mycall"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="https://www.facebook.com/amar.malik.718"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:id="@+id/tvfb"
+            android:textSize="17dp"
+            android:textColor="#ffffff"
+            />
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            card_view:cardBackgroundColor="#80ffffff"
+            card_view:cardElevation="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            card_view:cardCornerRadius="5dp"
+            android:layout_weight="1"
+            card_view:cardUseCompatPadding="true"
+            android:drawingCacheQuality="high">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.example.amazingami.parakram.ShinnyButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="Suggest me on Gmail"
+                    android:id="@+id/tvmymailid"
+                    />
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

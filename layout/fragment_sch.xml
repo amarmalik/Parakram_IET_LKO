@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/bkimg2"
+    tools:context="com.example.amazingami.parakram.Home">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Schedule"
+    android:textStyle="bold"
+    android:textAllCaps="true"
+    android:textSize="25dp"
+    android:gravity="center"
+    android:textColor="#ffffff"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="- eve1:"
+    android:textSize="25dp"
+    android:textColor="#ffffff"
+    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1st-(),2nd-()"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Robotics"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="- eve1:"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1st-(),2nd-()"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Robotics"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="- eve1:"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1st-(),2nd-()"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Robotics"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="- eve1:"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1st-(),2nd-()"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

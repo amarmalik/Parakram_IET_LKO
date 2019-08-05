@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/bkimg2"
+    tools:context="com.example.amazingami.parakram.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/llswipe"
+        >
+        <ViewFlipper
+            android:id="@+id/flipper1"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:flipInterval="3000"
+            android:inAnimation="@animator/slide_in_right"
+            android:outAnimation="@animator/slide_out_left"
+            android:layout_centerInParent="true" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:background="@drawable/parakrambk1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleselectgreen"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:background="@drawable/slider1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleselectgreen"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:background="@drawable/slider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleselectgreen"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:background="@drawable/slider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleselectgreen"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:background="@drawable/bitsimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleselectgreen"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:background="@drawable/langame"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleselectgreen"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:background="@drawable/slider5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleunselectgray"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/circleselectgreen"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+
+        </ViewFlipper>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/llswipe"
+            android:layout_marginTop="2dp">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="2dp"
+              android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            card_view:cardBackgroundColor="#80ffffff"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="5dp"
+            android:layout_weight="1"
+            card_view:cardUseCompatPadding="true"
+            android:drawingCacheQuality="high">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.amazingami.parakram.ShinnyButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Events"
+        android:id="@+id/evnt1"
+        />
+
+</RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            card_view:cardBackgroundColor="#80ffffff"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="5dp"
+            android:layout_weight="1"
+            card_view:cardUseCompatPadding="true"
+            android:drawingCacheQuality="high">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.example.amazingami.parakram.ShinnyButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+android:id="@+id/btnsch"
+                    android:layout_marginTop="2dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="Schedule"
+                    />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                card_view:cardBackgroundColor="#80ffffff"
+                card_view:cardElevation="4dp"
+                card_view:cardCornerRadius="5dp"
+                android:layout_weight="1"
+                card_view:cardUseCompatPadding="true"
+                android:drawingCacheQuality="high">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <com.example.amazingami.parakram.ShinnyButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:id="@+id/btnnews"
+                        android:layout_marginTop="2dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="News Feeds"
+                        />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                card_view:cardBackgroundColor="#80ffffff"
+                card_view:cardElevation="4dp"
+                card_view:cardCornerRadius="5dp"
+                android:layout_weight="1"
+                card_view:cardUseCompatPadding="true"
+                android:drawingCacheQuality="high">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.example.amazingami.parakram.ShinnyButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:id="@+id/btnprize"
+                        android:layout_marginTop="2dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Prize"/>
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                card_view:cardBackgroundColor="#80ffffff"
+                card_view:cardElevation="4dp"
+                card_view:cardCornerRadius="5dp"
+                android:layout_weight="1"
+                card_view:cardUseCompatPadding="true"
+                android:drawingCacheQuality="high">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.example.amazingami.parakram.ShinnyButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:id="@+id/btnreg"
+                        android:layout_marginTop="2dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Register"/>
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                card_view:cardBackgroundColor="#80ffffff"
+                card_view:cardElevation="4dp"
+                card_view:cardCornerRadius="5dp"
+                android:layout_weight="1"
+                card_view:cardUseCompatPadding="true"
+                android:drawingCacheQuality="high">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.example.amazingami.parakram.ShinnyButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:id="@+id/btngal"
+                        android:layout_marginTop="2dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Gallery"/>
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                card_view:cardBackgroundColor="#80ffffff"
+                card_view:cardElevation="4dp"
+                card_view:cardCornerRadius="5dp"
+                android:layout_weight="1"
+                card_view:cardUseCompatPadding="true"
+                android:drawingCacheQuality="high">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.example.amazingami.parakram.ShinnyButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+                        android:layout_marginTop="2dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Team"
+                        android:id="@+id/btnteam"
+                        />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                card_view:cardBackgroundColor="#80ffffff"
+                card_view:cardElevation="4dp"
+                card_view:cardCornerRadius="5dp"
+                android:layout_weight="1"
+                card_view:cardUseCompatPadding="true"
+                android:drawingCacheQuality="high">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.example.amazingami.parakram.ShinnyButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:id="@+id/btnspon"
+                        android:layout_marginTop="2dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Sponsors"
+                        />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                card_view:cardBackgroundColor="#80ffffff"
+                card_view:cardElevation="4dp"
+                card_view:cardCornerRadius="5dp"
+                android:layout_weight="1"
+                card_view:cardUseCompatPadding="true"
+                android:drawingCacheQuality="high">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.example.amazingami.parakram.ShinnyButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:id="@+id/btnabout"
+                        android:layout_marginTop="2dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="About us"
+                        />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                card_view:cardBackgroundColor="#80ffffff"
+                card_view:cardElevation="4dp"
+                card_view:cardCornerRadius="5dp"
+                android:layout_weight="1"
+                card_view:cardUseCompatPadding="true"
+                android:drawingCacheQuality="high">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.example.amazingami.parakram.ShinnyButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:id="@+id/btncontact"
+                        android:text="Contact us"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                card_view:cardBackgroundColor="#80ffffff"
+                card_view:cardElevation="4dp"
+                card_view:cardCornerRadius="5dp"
+                android:layout_weight="1"
+                card_view:cardUseCompatPadding="true"
+                android:drawingCacheQuality="high">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.example.amazingami.parakram.ShinnyButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:id="@+id/btndev"
+                        android:layout_marginTop="2dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Devloper"/>
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+          </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

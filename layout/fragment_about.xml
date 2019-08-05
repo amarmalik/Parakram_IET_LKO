@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/bkimg2"
+    tools:context="com.example.amazingami.parakram.Home">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        >
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:background="@drawable/paralogom"
+
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Parakram 2k17"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:textAllCaps="false"
+    android:textSize="20dp"
+    android:textColor="#ffffff"
+
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Each year, in the month of April, the students of the I.E.T. Lucknow organize a
+technical festival, called PARAKRAM. Over the years PARAKRAM has evolved
+and expanded to become one of the largest intercollegiate technical extravaganza
+in U.P. Being the most eagerly awaited event of the year, it has become a
+statewide platform where the youth of the state get together, interact and indulge
+in a technical war. PARAKRAM witnesses participation from students from over
+20 top colleges across U.P. Over 2000 per day footfalls are witnessed during the
+festival."
+    android:textSize="15dp"
+    android:textColor="#ffffff"
+    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PARAKRAM has always been a classic example of the fact that it's the endeavor
+that counts. Our efforts are always aimed towards bringing about a rise in the
+competition level among the youth. PARAKRAM brings to the masses a plethora
+of events, comprising of all from ROBOTICS to CODING, from SCHOOLS
+PARTICIPATION to IDP, from UNDERWATER PROJECT to MINE IN THE
+SKY. "
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            />
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ietlogo"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Institute of Engineering And Technology Lucknow"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Institute of Engineering And Technology, Lucknow (better known as the (Engineering College) in Lucknow), is the oldest engineering college of Lucknow. It was inaugurated on November 1984 with the objective of producing quality engineers in every discipline. It includes departments of Computer Science and Engineering, Electronics Department, Mechanical Engineering Department, Electrical Engineering Department, Chemical Engineering Department, Civil Department, Applied Sciences Department, Bio Technology and Business Administration Department. Since its establishment, this institute has been proving itself to be the best engineering college of Lucknow."
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="The institute is situated on the outskirts of Aliganj or on the entrance of Lucknow from Sitapur road. It is well reputed all throughout the state of Uttar Pradesh and has been spreading its fame throughout the country through its professionals. The institute had started with a mere strength of around 200 students. Now the strength has reached up to 1500 students. The institute is run by the government with a highly qualified faculty in every discipline. The institute has been accredited by AICTE."
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                />
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

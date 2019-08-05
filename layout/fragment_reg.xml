@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/bkimg2"
+    tools:context="com.example.amazingami.parakram.Home">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Registration Process"
+    android:textStyle="bold"
+    android:textAllCaps="true"
+    android:textSize="25dp"
+    android:gravity="center"
+    android:textColor="#ffffff"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="● From each college one student representative will be selected as College
+Coordinator (hereafter, called CC).\r\n ● CC should forward the registration link and process details to all the
+participants.\r\n ● All participants should contact their CC of their college.\r\n ● Every participant has to register on IET PARAKRAM website
+www.ietparakram.in . This is mandatory for all participants. Unregistered cases
+will not be entertained at later stages. \r\n ● Event registration will be done after your contingent arrives at IET
+Lucknow, you have to come to registration desk, College Auditorium along with
+your college ID card. The CC should have the list of his/her entire team with their
+interested event mentioned and registration amount of the event (which is
+mentioned in next section).\r\n ● Each participant should have 2 passport size photographs and college ID at
+the time of registration.\r\n ● All event registrations should be done on first day of the festival.\r\n ● No outside student without ID card will be entertained and will be handed
+over to college authorities and fellow college will be disqualified from all sort of
+participations.
+"
+    android:textSize="20dp"
+    android:textColor="#ffffff"
+    />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+                    <android.support.v7.widget.CardView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        card_view:cardBackgroundColor="#80ffffff"
+                        card_view:cardElevation="4dp"
+                        android:layout_marginTop="450dp"
+                        card_view:cardCornerRadius="5dp"
+                        android:layout_weight="1"
+                        card_view:cardUseCompatPadding="true"
+                        android:drawingCacheQuality="high">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                    <com.example.amazingami.parakram.ShinnyButton
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#00000000"
+                                        android:gravity="center"
+                                        android:textSize="20dp"
+                                        android:layout_marginTop="2dp"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_centerVertical="true"
+                                        android:text="Register for Parakram"
+                                        android:id="@+id/tvregs"
+                                        />
+
+
+
+                            </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            card_view:cardBackgroundColor="#80ffffff"
+            card_view:cardElevation="4dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            card_view:cardCornerRadius="5dp"
+            android:layout_weight="1"
+            card_view:cardUseCompatPadding="true"
+            android:drawingCacheQuality="high">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.example.amazingami.parakram.ShinnyButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="Login"
+                    android:id="@+id/tvlogged"
+                    />
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

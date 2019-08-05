@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/bkimg2"
+    tools:context="com.example.amazingami.parakram.Home">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:id="@+id/rlprizee"
+    android:layout_height="wrap_content">
+
+        <pl.droidsonroids.gif.GifTextView
+            android:layout_width="210dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imggif"
+            android:background="@drawable/prizeimg"
+            />
+</RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rlprizee"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical"
+                    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="CIPHERTECH:"
+    android:textStyle="bold"
+    android:textAllCaps="true"
+    android:textSize="20dp"
+    android:textColor="#ffffff"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="TEAM OF 2
+    \r\n Registration Amount- 20/-\r\n
+    per team Prize Money- 800/-"
+    android:textSize="20dp"
+    android:textColor="#ffffff"
+    />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TECH QUIZ:"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 2
+    \r\nRegistration Amount- 50/-\r\n
+    per team Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CRYPTIA:"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 2\r\n
+    Registration Amount- 20/-\r\n
+    per team Prize Money- 800/-:"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="GOOGLER:"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 2\r\n
+    Registration Amount- 20/-per team\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="LAN Gaming"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1. Counter Strike 1.6\r\n
+    Entry fee – 500/- per team\r\n
+    Prize money – 4000/-:"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2. FIFA 15\r\n
+    Entry fee – 100/-\r\n
+    per person Prize money – 500/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="3. NFS Most Wanted\r\n
+    Entry fee – 100/-\r\n
+    per person Prize money- 500/-
+"            android:textSize="20dp"
+             android:textColor="#ffffff"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CODASM"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INDIVIDUAL EVENT\r\n
+    Registration Amount- Free\r\n
+    Prize Money- 1000/-:"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bits and Divs"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INDIVIDUAL EVENT\r\n
+    Registration Amount- Free\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SPOTLIGHT QUIZ"
+            android:layout_marginTop="5dp"
+
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 2\r\n
+    Registration Amount- 20/-per team\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FOOD ADULTERATION"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 3-4\r\n
+    Registration Amount- 10/-per person\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PATENT PRESENTATION"
+            android:layout_marginTop="5dp"
+
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 3-4\r\n
+    Registration Amount- 10/- per person\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FRUGAL"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 3-4\r\n
+    Registration Amount- 10/- per person\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INDUSTRIAL DESIGN PROBLEM"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 3-4\r\n
+    Registration Amount- 10/- per person\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UNDERWATER PROJECT"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 5 (Max.)\r\n
+    Registration Amount- 50/- per team\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BRIDGE BUILDING AND DESIGNING"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 5\r\n
+    Registration Amount- 80/- per team\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MACROCOSM"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 2\r\n
+    Registration Amount- 20/- per team\r\n
+    Prize Money- 600/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PICTURESQUE"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SPARK"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INDIVIDUAL EVENT\r\n
+    Registration Amount- 10/- per team\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ELECTRIATION:"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 3 (Max.)\r\n
+    Registration Amount- 30/- per team\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+
+            android:text="STOP TO WIN"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 2\r\n
+    Registration Amount- 30/- per team\r\n
+    Prize Money- 600/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INNOVATION AND YOU"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 4\r\n
+    Registration Amount- 50/- per team\r\n
+    Prize Money- 700/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ASTRO QUIZ
+(COSMOS)"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INDIVIDUAL EVENT\r\n
+     Registration Amount- 20/- per person Prize\r\n
+     Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FAKE RESEARCH"
+            android:layout_marginTop="5dp"
+
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 2\r\n
+    Registration Amount- 20/- per team\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MINE THE SKY"
+            android:layout_marginTop="5dp"
+
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 4\r\n
+    Registration Amount- 10/- per team\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CIRCUITRIX"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INDIVIDUAL EVENT\r\n
+    Registration Amount- 10/- per person\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="QUIZ O MANIA"
+            android:layout_marginTop="5dp"
+
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INDIVIDUAL EVENT\r\n
+    Registration Amount- 20/- per person\r\n
+    Prize Money- 700/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="QUIZ O MANIA"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INDIVIDUAL EVENT\r\n
+    Registration Amount- 20/- per person\r\n
+    Prize Money- 700/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TECH PAPER PRESENTATION"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 4\r\n
+    Registration Amount- 40/- per person\r\n
+    Prize Money- 800/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="KON TRIVENCE
+(ROBOTICS)"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 5 (Max.)\r\n
+     Exciting prizes to be won"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="KICK - O - BOT"
+            android:layout_marginTop="5dp"
+
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 5 (Max.)\r\n
+     Exciting prizes to be won"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SOI - COURIER"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 5 (Max.)\r\n
+     Exciting prizes to be won"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ENGINEERING QUIZ"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TEAM OF 2\r\n
+    Registration Amount- 20/- per person\r\n
+    Prize Money- 500/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="AUTOMOBILE QUIZ"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INDIVIDUAL EVENT\r\n
+    Registration Amount- 10/- per person\r\n
+    Prize Money- 500/-"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="ME EVENT"
+             android:textStyle="bold"
+             android:layout_marginTop="5dp"
+
+             android:textAllCaps="true"
+             android:textSize="20dp"
+             android:textColor="#ffffff"
+             />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text="TEAM OF 5 (Max.)\r\n
+    Registration Amount- 50/- per team\r\n
+    Prize Money- 1000/-"
+             android:textSize="20dp"
+             android:textColor="#ffffff"
+             />
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

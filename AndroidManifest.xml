@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amazingami.parakram">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/paralogom"
+        android:label="Parakram 2k17"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Activity_Frontpage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".AnimationActivity"></activity>
+        <activity android:name=".Activity_Gallery"></activity>
+        <activity
+            android:name=".ActivityRoboDetails"
+             android:theme="@style/Theme.Design.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_event_competition"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/bkimg2"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.amazingami.parakram.EventCompetition">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/mainattraimg"
+                android:gravity="center"
+                android:id="@+id/ev9"
+                android:textColor="#ffffff"
+
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="(MAIN ATTRACTIONS)"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/csimg"
+        android:gravity="center"
+
+android:id="@+id/ev1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:text="(COMUTER SCIENCE DEPARTMENT)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/chem11img"
+            android:gravity="center"
+            android:id="@+id/ev2"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="(CHEMICAL ENGINEEERING DEPARTMENT)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/civilimg"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/ev3"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="(CIVIL ENGINEERING DEPARTMENT)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/electricalimg"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/ev4"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="(ELECTRICAL ENGINEERING DEPARTMENT)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/eleximg"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/ev5"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="(ELECTRONICS DEPARTMENT)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/mechimg"
+            android:gravity="center"
+            android:id="@+id/ev6"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:text="(MECHANICAL ENGINEERING DEPARTMENT)"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/mbaimg"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/ev10"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="(MBA DEPARTMENT)"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/robo11img"
+            android:gravity="center"
+            android:id="@+id/ev7"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="(ROBOTICS)"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/cosmoss"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:id="@+id/ev8"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="(COSMOS)"/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

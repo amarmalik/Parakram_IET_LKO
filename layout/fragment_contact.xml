@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/bkimg2"
+    tools:context="com.example.amazingami.parakram.Home">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        >
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_height="150dp"
+    android:background="@drawable/parakrambk1"
+    />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#804767f2"
+android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/fbicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Like our Facebook page"
+                android:ems="10"
+                android:id="@+id/tvfb"
+                android:gravity="center"
+                android:layout_marginTop="12dp"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#80f5838f"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/icongmail" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_marginTop="12dp"
+                android:text="Contact us on gmail"
+                android:ems="10"
+                android:id="@+id/tvgmail"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#80ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/websiteicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_marginTop="12dp"
+                android:text="Redirect to our Website"
+                android:ems="10"
+                android:id="@+id/tvweb"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Team"
+    android:textAllCaps="true"
+    android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+    android:textColor="#ffffff"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Manish Sachan (8005183594)"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:id="@+id/tvmobilecall"
+    android:layout_marginTop="5dp"
+    android:textColor="#ffffff"
+    />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Shikha Tiwari"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+android:gravity="center"
+            android:textColor="#ffffff"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
